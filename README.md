@@ -7,6 +7,6 @@ Musify allows users to instantly download music as mp3. We don't have ad's or po
 If you feel like you want to see more features please do add an issue.
 This project is opensource you can also work on it by sending a pull request.
 
-# LISENCE
+# LICENSE
 
 This project is under [WTFPL](http://www.wtfpl.net/).
