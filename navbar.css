@@ -9,7 +9,7 @@ body {
   position: relative;
   height: 60vh;
   z-index: -2;
-  background: url("https://unsplash.it/2000/800?image=563") center top/cover no-repeat;
+  background: url("https://images.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fimages.alphacoders.com%2F294%2F294651.jpg&u=https://images.alphacoders.com/294/294651.jpg") center top/cover no-repeat;
 }
 .overlay {
   position: absolute;
