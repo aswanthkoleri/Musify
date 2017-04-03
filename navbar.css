@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  color: #6b6b6b;
+  font-size: 17px;
+  line-height: 1.6;
+}
+.hero {
+  position: relative;
+  height: 60vh;
+  z-index: -2;
+  background: url("https://unsplash.it/2000/800?image=563") center top/cover no-repeat;
+}
+.overlay {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+}
+.main-content {
+  background: #f2f2f2;
+}
+section {
+  background: #fff;
+  padding: 4rem 0 7rem;
+}
+section:nth-child(even) {
+  background: #f5f5f5;
+}
+h2,
+h3 {
+  padding: 2rem 0 0.75rem;
+  font-weight: 700;
+  color: #4b4b4b;
+}
+/* ===================================== */
+/* ===== THE INTERESTING STUFF NOW ===== */
+/* ===================================== */
+.navbar {
+  border: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+/* --- navbar sizes --- */
+/* --- navbar colors --- */
+}
+.navbar-brand {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #4b4b4b;
+}
+.navbar--size--xl {
+  padding: 4rem 0;
+}
+.navbar--size--lg {
+  padding: 2rem 0;
+}
+.navbar--size--md {
+  padding: 1rem 0;
+}
+.navbar--size--sm {
+  padding: 0;
+}
+.navbar--color--white {
+  background: #fff;
+}
+.navbar--color--primary {
+  background: #37ca7e;
+}
+.navbar--color--secondary {
+  background: #43a6dd;
+}
+.navbar--color--ghost {
+  background: rgba(0,0,0,0.2);
+}
+.navbar--color--ghost .navbar-brand,
+.navbar--color--ghost .navbar-text,
+.navbar--color--ghost a {
+  color: #fff;
+}
