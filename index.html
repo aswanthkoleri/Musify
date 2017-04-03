@@ -4,7 +4,7 @@
 
        <title>Musica-v1.0 </title>
         <link rel="stylesheet" href="header.css">
-
+        <link rel="stylesheet" href="navbar.css">
         <style type="text/css">  
         
          body
@@ -147,7 +147,7 @@
 
     </head>
     <body>
-       <a href="https://github.com/aswanthkoleri/Musica-v1.0"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/121cd7cbdc3e4855075ea8b558508b91ac463ac2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png"></a>
+       <!--<a href="https://github.com/aswanthkoleri/Musica-v1.0"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/121cd7cbdc3e4855075ea8b558508b91ac463ac2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png"></a>
         <header>
   <a href="#" id="head-link"><h1 align="">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Musica-v1.0</h1></a>
   <nav class="nav-right">
@@ -158,20 +158,46 @@
   </nav>
   <nav class="clearfix"></nav>
 </header>
-        
-        <div class="row">
+        -->
+
+
+<!-- available colors: primary | secondary | white | ghost-->
+<!-- available sizes: xl | lg | md | sm-->
+<!-- the bootstrap navbar-->
+<nav class="navbar navbar-fixed-top navbar--color--ghost navbar--size--xl" data-startColor="navbar--color--ghost" data-startSize="navbar--size--xl" data-intoColor="navbar--color--secondary" data-intoSize="navbar--size--md">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="musify.ml">Musify.ml</a>
+    </div>
+    <div class="collapse navbar-collapse" id="mobileNav">
+      <p class="navbar-right navbar-text">A Very fast Mp3 downloader.</p>
+    </div>
+  </div>
+</nav>
+<!-- some content to allow scrolling :)-->
+<div class="hero">
+  <div class="overlay"></div>
+</div>
+<div class="main-content">
+  <section>
+
+    <div class="row">
                 
                 <form id="searchbox" action="#">
     <input id="search" type="text" placeholder="Enter Song name">
     <input id="submit" type="submit" value = "Search">
                </form>
-
-                <div id="results"></div>
+  </section>
+     <div id="results"></div>
         </div>
         
+  
+</div>
+
         <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
         <script src="app.js"></script>
         <script src="https://apis.google.com/js/client.js?onload=init"></script>
+        <script src="navbar.js"></script>
 
         <br>
     </body>
