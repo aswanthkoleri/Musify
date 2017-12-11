@@ -12,6 +12,8 @@ justify-content: center;
 .heading{
 font-family: 'Aclonica';font-size: 100px;
 color : #fff;
+margin-bottom: 20px;
+margin-right: 60px;
 }
 h3{
  font-family: 'Armata';font-size: 22px;
@@ -111,4 +113,5 @@ input[type="submit"] {
   color: #FFF;
   padding: 1rem;
 }
+
 
