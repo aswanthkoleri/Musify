@@ -7,6 +7,8 @@ body, html {
   text-align: center;
 justify-content: center;
   align-items: center;
+  
+  font-family: 'Roboto';
 
 }
 .heading{
@@ -23,10 +25,7 @@ h3{
 background:#d1684e;
   
 }
-.searchbar {
-  position: relative;
-  top :230px;
-}
+.clear { clear: both; height: 150px; }
 
 .results {
 background :#d1684e;
@@ -38,7 +37,7 @@ form {
   
 }
 input[type="submit"] {
-  background: #000;
+  background: rgb(46, 46, 46);
   border: none;
   color: #FFF;
   padding: 1rem;
@@ -55,8 +54,8 @@ input[type="submit"] {
   font-size: 20px;
 }
 .row {
-  position: relative;
-  top : 300px;
+
+  margin-top : 60px;
 
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -70,6 +69,28 @@ input[type="submit"] {
 }
 :-moz-placeholder { /* Firefox 18- */
   color: pink;
+}
+.footer {
+  position: fixed;
+  font-family: 'Roboto';
+  font-size: 18px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  Height : auto;
+  background-color: rgb(46, 46, 46);
+  color: white;
+  text-align: center;
+}
+.footer p {
+  width :60%;
+  
+}
+p#disclaimer{
+  font-size: 13px;
+}
+.footer a {
+  color: #fff;
 }
 @media only screen and (max-width: 767px) {
   .container{
@@ -95,7 +116,7 @@ input[type="submit"] {
     font-size: 15px;
   }
   input[type="submit"] {
-    background: #000;
+    background: rgb(46, 46, 46);
     border: none;
     color: #FFF;
     padding: 1rem;
@@ -108,4 +129,9 @@ input[type="submit"] {
 .row {
   width: auto;
 }
+
+.footer p {
+  width :80%;
+ }
+ .clear { clear: both; height: 200px; }
 }
