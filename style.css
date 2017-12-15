@@ -30,7 +30,9 @@ background:#d1684e;
 .results {
 background :#d1684e;
 }
-
+.star {
+display: none;
+}
 
 form {
   font-size: 2.5rem;
@@ -105,7 +107,12 @@ p#disclaimer{
   .heading {
     font-size: 55px;
   }
-
+  .star{
+    display: block;
+  }
+  .ribbon {
+    display: none;
+  }
   input[type="text"] {
     background: #d1684e;
     border: 5px solid #FFF;
@@ -130,8 +137,14 @@ p#disclaimer{
   width: auto;
 }
 
-.footer p {
+.footer p  {
   width :80%;
+ }
+ .footer p {
+   font-size: 12px;
+ }
+ .footer p#disclaimer {
+   font-size: 11px;
  }
  .clear { clear: both; height: 200px; }
 }
