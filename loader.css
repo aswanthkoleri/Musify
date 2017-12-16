@@ -1,16 +1,37 @@
 html {
-    background: #00AA9A;
+     background: #d1684e;
+    
+    
 }
+.container{
+    display: none;
+}
+.ribbon{
+    display : none;
+}
+.footer{
+    display :none;
+}
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+   
+}
+
 
 .cont {
     position: absolute;
     top: 50%;
     margin-top: -50px;
+   
 /* half of #content height*/
     left: 50%;
     margin-left: -50px;
     width: 105px;
     height: 105px;
+    
 }
 
 .square {
