@@ -12,6 +12,9 @@ html {
 .footer{
     display :none;
 }
+.github-button{
+    display: none;
+}
 #loader-wrapper .loader-section {
     position: fixed;
     top: 0;
