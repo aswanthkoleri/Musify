@@ -1,5 +1,6 @@
 # Musify
 ![Logo](https://github.com/aswanthkoleri/Musify/blob/master/Musify.png)
+<br>
 Musify allows users to instantly download music as mp3.Just search for your song in Musify, the download buttons will be generated.
 
 > Inspired by people who hates surfing through internet to find a song and just want shit to get done very fast.
@@ -20,7 +21,7 @@ This project is opensource you can also work on it by sending a pull request.
 
 ![screenshot 1](https://github.com/aswanthkoleri/Musify/blob/master/Screenshot%20from%202017-12-17%2022-08-46.png)
 
-![screenshot 2](https://raw.github.com/aswanthkoleri/Musify/master/Screenshot%20from%202017-12-17%2022-09-09.png)
+![screenshot 2](https://raw.github.com/aswanthkoleri/Musify/master/Screenshot%20from%202017-12-17%2022-09-09.pngas)
 # LICENSE
 
 This project is under [WTFPL](http://www.wtfpl.net/).
