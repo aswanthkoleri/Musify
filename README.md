@@ -21,7 +21,7 @@ This project is opensource you can also work on it by sending a pull request.
 
 ![screenshot 1](https://github.com/aswanthkoleri/Musify/blob/master/Screenshot%20from%202017-12-17%2022-08-46.png)
 
-![screenshot 2](https://raw.github.com/aswanthkoleri/Musify/master/Screenshot%20from%202017-12-17%2022-09-09.pngas)
+![screenshot 2](https://raw.github.com/aswanthkoleri/Musify/master/Screenshot%20from%202017-12-17%2022-09-09.png)
 # LICENSE
 
 This project is under [WTFPL](http://www.wtfpl.net/).
