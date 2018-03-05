@@ -7,6 +7,7 @@ Musify allows users to instantly download music as mp3.Just search for your song
 
 If you feel like you want to see more features please do add an issue.
 This project is opensource you can also work on it by sending a pull request.
+[Know more](https://aswanthkoleri.github.io/blog/2017/12/18/Musify.html)
 
 # Features
 
